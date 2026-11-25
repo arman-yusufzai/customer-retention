@@ -1,1 +1,9 @@
-python -c "from importlib.metadata import version as v; [print(f'{p}=={v(p)}') for p in ['streamlit','pandas','numpy','scikit-learn','xgboost','shap','scipy','joblib','matplotlib']]"
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+scipy
+joblib
+matplotlib
