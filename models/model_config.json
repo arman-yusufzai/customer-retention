@@ -1,0 +1,31 @@
+{
+  "model": "XGBoost (tuned)",
+  "features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "addon_count",
+    "has_support_addons",
+    "streaming_flag",
+    "is_new_customer"
+  ],
+  "save_rate": 0.25,
+  "offer_cost": 50,
+  "test_roc_auc": 0.8459,
+  "test_pr_auc": 0.6611
+}
